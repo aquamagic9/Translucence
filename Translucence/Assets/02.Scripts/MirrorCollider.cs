@@ -4,26 +4,21 @@ using UnityEngine;
 
 public class MirrorCollider : MonoBehaviour
 {
-    public List<Vector3> collisionObjectsPosition;
+    
     [SerializeField] Mirror mirror;
     public LayerMask layerMask;
-
-    private void Start()
-    {
-        collisionObjectsPosition = new List<Vector3>();
-        this.transform.GetComponent<BoxCollider>().enabled = false;
-    }
+    public GameObject Player;
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("TestObject"))
         {
+            Debug.Log("실행이 되는거니?");
             Ray ray = new Ray(other.transform.position, -mirror.outDir * 100f);
             RaycastHit hitData;
             if (Physics.Raycast(ray, out hitData, layerMask))
             {
-                collisionObjectsPosition.Add(hitData.point);
+                Player.GetComponent<Scanning>().CreateMirrorNote(hitData.point);
             }
         }
     }
-
 }
