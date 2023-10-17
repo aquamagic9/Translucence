@@ -4,12 +4,14 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - TestObject
+  - Scanable
+  - MusicLines
+  - MusicBlanks
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - TestMirror
+  - 
   - Water
   - UI
   - 
