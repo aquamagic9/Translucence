@@ -18,11 +18,18 @@ public class Scanning : MonoBehaviour
                 _paper = null;
             }
             _paper = Instantiate(musicPaperPrefab, canvas.transform);
-            foreach(var item in GameObject.FindGameObjectsWithTag("Scanable"))
+            foreach (var item in GameObject.FindGameObjectsWithTag("Scanable"))
             {
                 var note = Instantiate(musicNotePrefab, _paper.transform);
                 note.GetComponent<Image>().enabled = false;
                 note.transform.position = Camera.main.WorldToScreenPoint(item.transform.position);
+            }
+        }
+        if (Input.GetMouseButtonDown(1))
+        {
+            if(_paper != null)
+            {
+                _paper.SetActive(false);
             }
         }
     }
