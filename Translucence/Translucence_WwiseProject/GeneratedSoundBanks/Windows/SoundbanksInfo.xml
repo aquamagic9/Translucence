@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Windows</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{986487A9-2683-E47A-8688-3D0FE6FDB954}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+		</SoundBank>
+		<SoundBank Id="3291379323" Type="User" Language="SFX" Hash="{1B5D7C5A-B49D-A1BA-E7C5-5F132F677ADF}">
+			<ShortName>TestBank</ShortName>
+			<Path>TestBank.bnk</Path>
+			<Media>
+				<File Id="158969825" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SP_SZ_78_piano_thoughtful_Ebmaj.wav</ShortName>
+					<CachePath>SFX/SP_SZ_78_piano_thoughtful_Ebmaj_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="650157163" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SP_SZ_78_piano_wide_open_Ebmaj.wav</ShortName>
+					<CachePath>SFX/SP_SZ_78_piano_wide_open_Ebmaj_D79FB2B7.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="927681735" Name="TestMusic1" MaxAttenuation="70" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="158969825"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="927681732" Name="TestMusic2" MaxAttenuation="65" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="650157163"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{D5D3BD21-D0F2-E35E-2D4A-404715C966C6}</FileHash>
+</SoundBanksInfo>

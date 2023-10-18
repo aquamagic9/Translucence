@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{564267A6-4E4B-4834-B643-7F7DE901D6BB}" SchemaVersion="110">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{564267A6-4E4B-4834-B643-7F7DE901D6BB}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{564267A6-4E4B-4834-B643-7F7DE901D6BB}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="TestMusic1" ID="{AA3940C1-1D05-49DC-8496-DE6D45AEFF19}">
+					<ChildrenList>
+						<Action Name="" ID="{C43332F3-9787-4C11-A6CB-A0DC224EF244}" ShortID="52665805">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SP_SZ_78_piano_thoughtful_Ebmaj" ID="{1F083059-5B48-475C-914B-C1EA32B99D4D}" WorkUnitID="{0E025E59-F83A-460C-A3F7-913811B6F191}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="TestMusic2" ID="{BF06D548-48CC-4482-9BA3-875A39785005}">
+					<ChildrenList>
+						<Action Name="" ID="{808E9FB8-F1D8-4C9F-BB48-15B2283F64F3}" ShortID="582046152">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SP_SZ_78_piano_wide_open_Ebmaj" ID="{A28F2C62-6D1D-4F19-AC74-D8C280DB0DF6}" WorkUnitID="{0E025E59-F83A-460C-A3F7-913811B6F191}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

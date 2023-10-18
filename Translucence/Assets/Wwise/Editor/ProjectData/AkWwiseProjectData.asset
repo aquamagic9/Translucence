@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: b4c0c792437b184e9eb52f60e314cfa9
     GuidInternal: 
-    m_lastTime: -8585040598449661925
+    m_lastTime: -8585041534499839244
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 77644bb34c31e64fa552b2a9664756a4
     GuidInternal: 
-    m_lastTime: -8585040598449702038
+    m_lastTime: -8585041534500347542
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -66,8 +66,22 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 43450d505086aa4dbede8e8e1fe8966b
     GuidInternal: 
-    m_lastTime: -8585040598449681975
-    List: []
+    m_lastTime: -8585040001741678448
+    List:
+    - name: TestBank
+      guid: e674b0942af6b64b9893eea78affab34
+      id: 3291379323
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 43450d505086aa4dbede8e8e1fe8966b
+      - ElementName: TestBank
+        ObjectType: 7
+        guid: e674b0942af6b64b9893eea78affab34
+      Path: SoundBanks\Default Work Unit\TestBank
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
@@ -80,8 +94,42 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: a66742564b4e3448b6437f7de901d6bb
     GuidInternal: 
-    m_lastTime: -8585040598449712062
-    List: []
+    m_lastTime: -8585040004066449121
+    List:
+    - name: TestMusic1
+      guid: c14039aa051ddc498496de6d45aeff19
+      id: 927681735
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a66742564b4e3448b6437f7de901d6bb
+      - ElementName: TestMusic1
+        ObjectType: 3
+        guid: c14039aa051ddc498496de6d45aeff19
+      Path: Events\Default Work Unit\TestMusic1
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: TestMusic2
+      guid: 48d506bfcc4882449ba3875a39785005
+      id: 927681732
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a66742564b4e3448b6437f7de901d6bb
+      - ElementName: TestMusic2
+        ObjectType: 3
+        guid: 48d506bfcc4882449ba3875a39785005
+      Path: Events\Default Work Unit\TestMusic2
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -94,7 +142,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 3d8947453a23db4d9ebdccebb5b5f158
     GuidInternal: 
-    m_lastTime: -8585040598449712062
+    m_lastTime: -8585040701914032684
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -108,7 +156,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: fc6e07dfc8a33745b68e6e6d5f405de1
     GuidInternal: 
-    m_lastTime: -8585040598449671951
+    m_lastTime: -8585040701914032684
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -122,7 +170,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 7875d4d07282e54b8c2a3c312d46ae8a
     GuidInternal: 
-    m_lastTime: -8585040598449671951
+    m_lastTime: -8585041534500208004
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
@@ -136,10 +184,10 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 3b197c773f510f498898d3f42f078903
     GuidInternal: 
-    m_lastTime: -8585040598449661925
+    m_lastTime: -8585041534499928946
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 05000000060000000b0000000c000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
